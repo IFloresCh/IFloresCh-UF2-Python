@@ -1,5 +1,4 @@
-from re import I
-import funtions as f
+import functions as f
 
 def main():
     num = f.validate()
