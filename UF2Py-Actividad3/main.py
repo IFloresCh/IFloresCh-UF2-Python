@@ -2,8 +2,8 @@
 import functions as f
 
 def main():
-    bin, n = 0, 0
-    x=f.validate(n)
+    num = 0
+    x=f.validate(num)
     print("El número en binario es :",f.decimaltobinary(x))
 
 if __name__ == "__main__":
