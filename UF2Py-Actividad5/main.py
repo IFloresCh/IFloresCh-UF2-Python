@@ -1,14 +1,9 @@
-a = int(input("Introduce a: "))
-b = int(input("Introduce b: "))
-
-def intercambia():
-    global a, b
-    a, b = b, a
-    print(a, b)
-
+import functions as f
     
 def main():
-    intercambia()
+    a=f.aaa()
+    b=f.bbb()
+    f.intercambia()
     print(a, b)
 
 
