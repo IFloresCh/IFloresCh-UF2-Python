@@ -10,18 +10,8 @@ def validate():
 def mitjana():
     
     lista2 = [x for x in range(31) if x % 2 == 0]
+ 
     
-a = int(input("Introdueix a: "))
-b = int(input("Introdueix b: "))
-
-def intercambia():
-    global a, b
-    a, b = b, a
-print(a, b)
-    
-def main():
-    intercambia()
-    print(a, b)
 
 
 if __name__ == "__main__":

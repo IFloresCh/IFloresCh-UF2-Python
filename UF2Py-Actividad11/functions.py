@@ -1,7 +1,6 @@
 def evenNumbers():
-    a_list = []
-    i = 2
-
+    i, a_list = 2, []
+    
     while len(a_list) < 101:
         a_list.append(i)
         i += 2

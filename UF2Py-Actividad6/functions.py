@@ -9,8 +9,11 @@ def validate():
     return num  
 
 def suma(num):
-    a, i = [], 0
-    while i < num:
+    global a 
+    a, i, suma = [], 0, 0
+    while suma < num:
         a.append(i)
+        i+= 1
+        suma += i
     print(a)
     return num
