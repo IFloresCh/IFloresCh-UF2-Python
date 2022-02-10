@@ -6,7 +6,5 @@ def bbb(b):
     b = int(input("Introduce b: "))
     return b
     
-def intercambia():
-    global a, b
-    a, b = b, a
-    print(a, b)
+def swaper():
+    a, b = swapper(b, a)
