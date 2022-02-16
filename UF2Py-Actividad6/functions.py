@@ -17,3 +17,4 @@ def suma(num):
         suma += i
     print(a)
     return num
+
