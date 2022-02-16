@@ -5,6 +5,6 @@ def main():
     f.lists(num)
     lista = f.lists(num)
     
-    print(lista)
+    print(f.lists(num))
 if __name__ == '__main__':
     main()
